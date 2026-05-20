@@ -3,3 +3,23 @@ riderModule.iml
 /_ReSharper.Caches/
 Build/
 Intermediate/
+
+# IDEs
+.idea/
+.vscode/
+*.user
+*.vcxproj.user
+
+# Build artifacts
+cmake-build-debug/
+cmake-build-release/
+build/
+*.exe
+*.o
+*.a
+*.so
+*.dll
+
+# OS
+.DS_Store
+Thumbs.db
