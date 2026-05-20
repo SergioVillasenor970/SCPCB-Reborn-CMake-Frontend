@@ -18,7 +18,7 @@ Coloca aquí las DLLs de 64 bits que deben copiarse junto a `SCPCBR.exe`:
 - `libglib-2.0-0.dll`
 
 Estas DLLs deben ser compatibles con la build MinGW x64 usada por el proyecto.
-El CMakeLists.txt y copy_dlls.ps1 las copiarán automáticamente al directorio de salida si están presentes.
+El CMakeLists.txt las copiará automáticamente al directorio de salida si están presentes.
 
 Para ayudar a recopilar estas DLLs sin rutas hardcodeadas, puedes ejecutar desde la raíz del repositorio:
 
